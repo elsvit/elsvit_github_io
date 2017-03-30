@@ -33,10 +33,14 @@
 	function showCategory01(){
 		document.getElementById('linksImgs_1').style.display = "inline-block";
 		document.getElementById('linksImgs_2').style.display = "none";
+		document.getElementById('describe_examples').style.display = "block";
+		document.getElementById('describe_real_site').style.display = "none";
 	}
 	function showCategory02(){
 		document.getElementById('linksImgs_1').style.display = "none";
 		document.getElementById('linksImgs_2').style.display = "inline-block";
+		document.getElementById('describe_examples').style.display = "none";
+		document.getElementById('describe_real_site').style.display = "block";
 	}
 	function showEmail(){
 		document.getElementById('footer_middle_btn_1').style.display = "none";
