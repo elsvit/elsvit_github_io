@@ -168,7 +168,7 @@
 	.boxes;
 }
 .links_btns{
-	width: 50%;
+	width: 70%;
 	margin: 5px auto;
 }
 .links_btn{
@@ -201,6 +201,7 @@
 }
 .linksImg{
 	display: inline-block;
+	position: relative;
 	float: left;
 	margin: 10px;
 	width: @links_img_width;
@@ -212,10 +213,14 @@
 	width: 100%;
 	heigth: 100%;
 }
+.linksImg:hover{
+	top: -1px;
+	box-shadow: 2px 2px 2px rgba(100, 100, 100, 0.5);
+}
 .footer{
 	width: 100%;
 	display: inline-block;
-	padding: 10px 20%;
+	padding: 10px 10%;
 	height: 150px;
 	color: @footer_color;
 	background-color: @footer_bg_color;
