@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Portfolio</title>
+	<meta name="description" content="portfolio" />
+	<link rel="stylesheet/less" type="text/css" href="css/styles.less" />
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/less.js/2.7.2/less.min.js'></script>
+
+</head>
+<body>
+	<div class="menu">
+		<div class="menu_logo">P<span class='loog_color_symbol'>O</span>RTFOLIO</div>
+		<div class="menu_links">
+			<div class="link_box">
+				<a href="#describe">Describe</a>	
+				<div class="link_line"></div>
+			</div>
+			<div class="link_gap"></div>
+			<div class="link_box">
+				<a href="#links">Links</a>
+				<div class="link_line"></div>
+			</div>
+		</div>
+	</div>
+	<div class="hero">
+		<div class="hero_text">
+			Example of works	
+		</div>
+	</div>
+	<div class="boxes" id="describe">
+		<div class="headline_wrap">
+			<div class="headline">Describe</div>	
+		</div>
+		
+		<div class="content"><b>PAGE WITH LESS.</b><br> Instance of stadart page with Menu, Head picture (gradient background), Content, Links, Footer. You have simple possibility to change CSS parameters use LESS variables. </div>
+		<div class="content"><b>NOTES WITH REACT.</b><br> Instance of Notes App with Textarea and Colors Sticknotes. This is a simple React App.</div>
+		<div class="content"><b>MOVIES FILTER.</b><br> Javascript App with JSON data.</div>
+	</div>
+	<div class="links" id="links">
+		<div class="headline_wrap">
+			<div class="headline">Links</div>	
+		</div>
+		<div class="links_btns">
+			<div class="links_btn" id="img_category_1" onClick = "showCategory01()">GitHub Example</div>
+			<div class="links_btn" id="img_category_2" onClick = "showCategory02()">Real Site</div>
+		</div>
+		<div class="linksImgs" id="linksImgs_1">
+			<a href='page_less/index.html'>
+			<div class="linksImg" id ="img_1_1"></div></a>
+			<a href='react_notes/index.html'>
+			<div class="linksImg" id ="img_1_2"></div></a>
+			<a href='movies_filter/index.html'>
+			<div class="linksImg" id ="img_1_3"></div></a>
+		</div>
+		<div class="linksImgs" id="linksImgs_2">
+			<a class="linksImgs" href="http://logicgame.net/en">
+			<div class="linksImg" id ="img_2_1"></div></a>
+		</div>
+	</div>
+	<div class="footer">
+		<div class="footer_first">
+			<div class="menu_logo">P<span class='loog_color_symbol'>O</span>RTFOLIO</div>
+			<div class="footer_logo_text">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. :)
+			</div>
+		</div>
+		<div class="footer_middle">
+			<div class="footer_middle_head">Contact</div>
+			<div class="footer_middle_lines">
+				<div class="footer_underline_1"></div>
+				<div class="footer_underline_2"></div>
+			</div>
+			<div class="footer_middle_btns">
+				<div class="footer_middle_btn" id="footer_middle_btn_1" onClick='showEmail()'>Email</div>
+				<div id="footer_middle_btn_1_content"></div>
+			</div>
+		</div>
+		<div class="footer_last">
+			<div class="footer_last_head">Train Your Brain</div>
+			<div class="footer_last_lines">
+				<div class="footer_underline_1"></div>
+				<div class="footer_underline_2"></div>
+			</div>
+			<div class="footer_last_links">
+				<div class="footer_last_links1">
+					<a class="footer_last_link" href="http://logicgame.net/en/killerSudoku">Killer Sudoku</a>
+					<a class="footer_last_link" href="http://logicgame.net/en/sudoku">Sudoku</a>
+					<a class="footer_last_link" href="http://logicgame.net/en/patiences">Solitaires</a>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+	<script src = js/main.js></script>
+</body>
+</html>

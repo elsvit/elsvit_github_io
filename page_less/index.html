@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Test</title>
+	<meta name="description" content="test" />
+	<link rel="stylesheet/less" type="text/css" href="css/styles.less" />
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/less.js/2.7.2/less.min.js'></script>
+
+</head>
+<body>
+	<div class="menu">
+		<div class="menu_logo">L<span class='loog_color_symbol'>O</span>GO</div>
+		<div class="menu_links">
+			<div class="link_box">
+				<a href="#boxes">Boxes</a>	
+				<div class="link_line"></div>
+			</div>
+			<div class="link_gap"></div>
+			<div class="link_box">
+				<a href="#filter">Filter</a>
+				<div class="link_line"></div>
+			</div>
+		</div>
+	</div>
+	<div class="hero">
+		<div class="hero_text">
+			Simple text in the middle of this background	
+		</div>
+	</div>
+	<div class="boxes" id="boxes">
+		<div class="headline_wrap">
+			<div class="headline">Boxes</div>	
+		</div>
+		
+		<div class="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed maiores quos totam asperiores magni tempore error, facere nobis quod doloremque aperiam magnam, dolores enim hic est quam quis, temporibus architecto?	</div>
+		<div class="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis quibusdam repellendus magni consequatur laborum illum fugiat dolor. Libero tenetur excepturi, dolorem obcaecati reprehenderit porro tempora atque, nesciunt? Rem, itaque vero.	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam reiciendis similique rem explicabo at, quibusdam maiores, totam nihil iste voluptas, quia corrupti hic vitae sed commodi. Quisquam, praesentium doloribus omnis.</div>
+		<div class="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis ex dolores dolorem fuga. Dolores doloribus quidem pariatur libero facilis repudiandae consequatur dolor ut blanditiis praesentium. Quibusdam tempora, magni corrupti recusandae.  ipsum	  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, excepturi. Illum ipsum soluta laboriosam consequatur dolor qui quam voluptate, numquam, commodi laborum, natus cumque architecto nisi impedit velit sequi neque Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis ex dolores dolorem fuga. Dolores doloribus quidem pariatur libero facilis repudiandae consequatur dolor ut blanditiis praesentium. Quibusdam tempora, magni corrupti recusandae.  ipsum	  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, excepturi. Illum ipsum soluta laboriosam consequatur dolor qui quam voluptate, numquam, commodi laborum, natus cumque architecto nisi impedit velit sequi neque.</div>
+	</div>
+	<div class="filter" id="filter">
+		<div class="headline_wrap">
+			<div class="headline">Filter</div>	
+		</div>
+		<div class="filter_btns">
+			<div class="filter_btn" id="img_category_1" onClick = "showCategory01()">Category 01</div>
+			<div class="filter_btn" id="img_category_2" onClick = "showCategory02()">Category 02</div>
+		</div>
+		<div class="filterImgs" id="filterImgs_1">
+			<div class="filterImg" id ="img_1_1"></div>
+			<div class="filterImg" id ="img_1_2"></div>
+			<div class="filterImg" id ="img_1_3"></div>
+			<div class="filterImg" id ="img_1_4"></div>
+		</div>
+		<div class="filterImgs" id="filterImgs_2">
+			<div class="filterImg" id ="img_2_1"></div>
+			<div class="filterImg" id ="img_2_2"></div>
+		</div>
+	</div>
+	<div class="footer">
+		<div class="footer_first">
+			<div class="menu_logo">L<span class='loog_color_symbol'>O</span>GO</div>
+			<div class="footer_logo_text">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos consectetur excepturi, beatae 
+			</div>
+		</div>
+		<div class="footer_middle">
+			<div class="footer_middle_head">ODKAZY</div>
+			<div class="footer_middle_lines">
+				<div class="footer_underline_1"></div>
+				<div class="footer_underline_2"></div>
+			</div>
+			<div class="footer_middle_btns">
+				<div class="footer_middle_btn" id="footer_middle_btn_1">Odkaz</div>
+				<div class="footer_middle_btn" id="footer_middle_btn_2">Odkaz</div>
+			</div>
+		</div>
+		<div class="footer_last">
+			<div class="footer_last_head">ODKAZY</div>
+			<div class="footer_last_lines">
+				<div class="footer_underline_1"></div>
+				<div class="footer_underline_2"></div>
+			</div>
+			<div class="footer_last_links">
+				<div class="footer_last_links1">
+					<div class="footer_last_link" id="footer_last_link_1">Odkaz 01</div>
+					<div class="footer_last_link" id="footer_last_link_2">Odkaz 02</div>
+					<div class="footer_last_link" id="footer_last_link_3">Odkaz 03</div>
+					<div class="footer_last_link" id="footer_last_link_4">Odkaz 04</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+	<script src = js/main.js></script>
+</body>
+</html>
